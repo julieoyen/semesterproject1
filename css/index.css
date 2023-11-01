@@ -85,15 +85,24 @@
    
 	
   }   
-
-
+.special, .showings{
+  color: white;
+  text-align: center;
+  margin: 30px;
+}
+.showings{
+  font-family: roboto mono;
+}
 
 .special_events{
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 }
-.special_event1, .special_event2 {
+.special_event1, 
+.special_event2, 
+.special_event3{
 background-color: rgba(245, 245, 245, 1);
 border-radius: 22px;
 border: 1px solid #90F9DD;
@@ -101,16 +110,33 @@ width: 360px;
 height: auto;
 margin-bottom: 50px;
 
+
 }
 
-.special_event1 h2, .special_event2 h2{
-  font-size: 12px; 
+.special_event1 h2, 
+.special_event2 h2,
+.special_event3 h2{
+  font-size: 18px; 
   font-family: 'Racing Sans One', sans-serif;
   text-align: center;
   padding-top: 10px;
 }
 
-.special_event1 p, .special_event2 p{
+.special_event1 p, 
+.special_event2 p, 
+.special_event3 p{
   padding: 20px 25px;
   font-size: 12px;
+}
+
+.backbutton_mobile{
+  background-color: #252222;
+  background-color: Transparent;
+  border: none;
+}
+
+.blue_line{
+  display: flex;
+  flex-direction: row;
+  
 }
