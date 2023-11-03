@@ -3,20 +3,20 @@
     padding: 0;
   }
   
-  header {
-    background-color: #252222;
-    font-family: '';
-  }
-  
   nav {
-    background-color: white;
+    background-color: #0066BC;
   }
   
   nav a {
     display: block;
     padding: 10px 20px;
-    color: black;
+    color: rgba(0, 102, 188, 1);
     text-decoration: none;
+    font-family: 'Racing Sans One';
+  }
+
+  nav a:hover{
+    color: white;
   }
   
   nav li {
@@ -50,10 +50,11 @@
   
   .hamburger-label {
     float: right;
-    color: white;
+    color: #0066BC;
     padding: 20px;
     display: flex;
     gap: 10px;
+    padding-top: 45px;
   }
   
   .hamburger-label:hover {
@@ -61,7 +62,7 @@
   }
 
   body{
-    background-color: #252222;
+    background-color: #FFFFFF;
   }
   
  h1{
@@ -72,3 +73,5 @@
  p{
     font-family: 'Nunito Sans', sans-serif;
  }
+
+ 

@@ -19,8 +19,9 @@
   left: 0;
 }
 
-  h1{
+  .explore h1{
     text-align: center;
+    color: #0066BC;
   }
 
   .container_age14{
@@ -41,57 +42,67 @@
 
   .explore{
     margin: 40px;
+    color: #0066BC;
   }
 
   .for_section{
     display: flex;
     flex-direction: column;
     text-align: center;
+    position: relative;
   }
 
   .forkids{
       position: relative;
+      text-align: center;
     }
 
-  .forkids_content h1{
-    position: absolute;
-    color: #000;
-    font-family: Racing Sans One;
-    font-size: 31px;
+    .forkids h1{
+       position: absolute;
+       flex-direction: block;
+       top: 10%;
+       left: 0;
+       right: 0;
+       color: white;
+    }
+
+    .forkids button{
+     background-color: #8661C1;
+    }
+ 
+
+    .readmore_button{
+      position:absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      cursor: pointer;
+    width: 243px;
+  flex-shrink: 0;
+    text-align: center;
+    font-family: 'Racing Sans One';
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 1px;
-    text-align: center;
-    justify-items: center;
-  }
-
-  .forkids img{
-    width: auto;
-  }
-  
-  .forkids button, .forteachers button,
-  .forresearchers button{
-    background-color: rgba(0 , 0,0,0.3);
-    background-color: Transparent;
-    border: none;
-    border-radius: 0 22 0 22;
-    cursor:pointer;
-    overflow: hidden; 
-    outline: none;
-    bottom: 10px;
-    position: absolute;
+    line-height: normal; 
+    border-radius: 0px 0px 24px 24px;
+    
+    }
    
-	
-  }   
 .special, .showings{
-  color: white;
+  color:#0066BC;
   text-align: center;
   margin: 30px;
 }
 .showings{
   font-family: roboto mono;
+  color: #0066BC;
 }
 
 .special_events{
@@ -130,13 +141,76 @@ margin-bottom: 50px;
 }
 
 .backbutton_mobile{
-  background-color: #252222;
+  background-color: rgba(0, 102, 188, 1);
   background-color: Transparent;
   border: none;
 }
 
+.backbutton_mobile:hover{
+  cursor: pointer;
+}
+
+-------footer------>
+
 .blue_line{
   display: flex;
   flex-direction: row;
-  
+  background-color: #0066BC;
+  padding: 10px 10px;
+
 }
+
+.some{
+  color: white;
+  font-size:large;
+  padding-left: 10x;
+}
+
+.some:hover{
+  cursor: pointer;
+}
+
+.freeadmission{
+  margin-right: 0;
+  margin-left: auto;
+  padding-right: 5px;
+  color: white;
+  font-size: 12px;
+
+}
+
+.extra_footer{
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.extra_footer h3{
+  font-family: 'roboto serif';
+  padding-bottom: 5px;
+}
+
+.extra_footer p{
+  font-family: 'nunito sans';
+  font-size: 12px;
+}
+
+.hours_mobile{
+  padding-left: 20px;
+}
+.getintouch_mobile{
+  margin-right:0;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.fa-solid,
+.fa-regular{
+  padding-right: 10px;
+}
+
+.getintouch_mobile p{
+  padding-bottom: 10px;
+}
+
