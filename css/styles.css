@@ -3,6 +3,10 @@
     padding: 0;
   }
   
+  .header_logo{
+    width: 100px;
+    
+  }
   nav {
     background-color: #0066BC;
   }
@@ -51,10 +55,12 @@
   .hamburger-label {
     float: right;
     color: #0066BC;
-    padding: 20px;
+    padding: 34px;
     display: flex;
     gap: 10px;
-    padding-top: 45px;
+    padding-top: 40px;
+    font-size: 25px;
+    
   }
   
   .hamburger-label:hover {
@@ -74,4 +80,45 @@
     font-family: 'Nunito Sans', sans-serif;
  }
 
- 
+ @media (min-width: 720px) {
+  .header_text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    background: white; 
+  }
+
+  nav li:hover{
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  nav a {
+    color:#0066BC;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: large;
+  
+  }
+
+  .nav-content {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+ }

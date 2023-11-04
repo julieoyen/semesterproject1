@@ -8,6 +8,9 @@
   text-align: center;
   padding-top: 100px;
   margin-top: 10px;
+  display: flex;
+  margin-bottom: 200px;
+  
 }
 
 .banner_content {
@@ -18,26 +21,56 @@
   right: 80%;
   left: 0;
 }
+.welcome {
+  text-align: center;
+  color: #0066BC;
+}
 
-  .explore h1{
-    text-align: center;
-    color: #0066BC;
-  }
+.exploretogether{
+  height: 70px;
+  width: 70px;
+  font-family: 'Roboto Serif', sans-serif;
+  background-color: rgba(251, 119, 106, 0.85);
+  opacity: 81%;
+  color: #000;
+font-family: 'Roboto Serif', sans-serif;
+font-size: 12px;
+font-style: italic;
+font-weight: bolder;
+border-radius: 50%;
+margin-left: 5px;
+}
 
+.exploretogether p{
+  padding-top: 15px;
+}
+.explore {
+  text-align: center;
+  justify-items: center;
+  color: #0066BC;
+}
+.explore h1 {
+  font-size: 40px;
+}
   .container_age14{
     color: black;
     background-color: #90F9DD;
     padding: 15px 40px;
     text-align: center;
+    position: absolute;
+    top:100%;
+
   }
   
   .container_age14 h2{
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 15px;
+    font-family: 'Roboto Serif';
   }
 
   .container_age14 p{
     font-size: 12px;
+    font-family: 'nunito sans';
   }
 
   .explore{
@@ -50,14 +83,26 @@
     flex-direction: column;
     text-align: center;
     position: relative;
+    justify-content: space-around;
   }
 
-  .forkids{
+  .forkids,
+  .forteachers,
+  .forresearchers{
       position: relative;
       text-align: center;
+      margin-bottom: 20px;
     }
 
-    .forkids h1{
+    .forkids img,
+    .forteachers img,
+    .forresearchers img{
+      width: 243px;
+    }
+
+    .forkids h1,
+    .forteachers h1,
+    .forresearchers h1{
        position: absolute;
        flex-direction: block;
        top: 10%;
@@ -66,8 +111,22 @@
        color: white;
     }
 
+    .forresearchers h1{
+      font-size: 25px;
+    }
+
+
     .forkids button{
      background-color: #8661C1;
+    }
+
+    .forteachers button{
+      background-color: #4084E5;
+    }
+
+    .forresearchers button{
+      background-color: #3F784C;
+      ;
     }
  
 
@@ -79,7 +138,7 @@
       -ms-transform: translate(-50%, -50%);
       border: none;
       color: white;
-      padding: 20px;
+      padding: 24px;
       text-align: center;
       text-decoration: none;
       font-size: 18px;
@@ -110,18 +169,25 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 .special_event1, 
 .special_event2, 
 .special_event3{
 background-color: rgba(245, 245, 245, 1);
 border-radius: 22px;
-border: 1px solid #90F9DD;
+border: 1px solid #0066BC;
 width: 360px;
 height: auto;
 margin-bottom: 50px;
+}
 
-
+.special_event1 img, 
+.special_event2 img, 
+.special_event3 img{
+  width: 360px;
 }
 
 .special_event1 h2, 
@@ -144,12 +210,19 @@ margin-bottom: 50px;
   background-color: rgba(0, 102, 188, 1);
   background-color: Transparent;
   border: none;
+  font-size: 14px;
+  font-family: 'Racing Sans One';
 }
 
 .backbutton_mobile:hover{
   cursor: pointer;
 }
 
+.fa-solid{
+  color: #0066BC;
+  padding-left: 10px;
+  
+}
 -------footer------>
 
 .blue_line{
@@ -214,3 +287,97 @@ margin-bottom: 50px;
   padding-bottom: 10px;
 }
 
+@media (min-width: 1000px) {
+  .welcome {
+    text-align: center;
+    color: #0066BC;
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+  .explore h1{ 
+    font-size: 68px;
+  }
+  .exploretogether{
+    height: 150px;
+    width: 150px;
+  }
+  .exploretogether p {
+    padding-top: 45px;
+    font-size: 18px;
+    
+  }
+ 
+
+  .container_age14{
+    color: black;
+    background-color: #90F9DD;
+    text-align: center;
+    width: 200px;
+height: 250px;
+border-radius: 50%;
+top:45%;
+opacity: 81%;
+
+  }
+  
+  .container_age14 h2{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Serif';
+    padding-top: 60px;
+
+  }
+
+  .container_age14 p{
+    font-size: 12px;
+    font-family: 'Nunito Sans';
+  }
+
+  .for_section{
+    display: flex;
+    flex-direction: row;
+  
+    }
+
+    
+    .forteachers img,
+    .forkids img,
+    .forresearchers img{
+      width: 343px;
+    }
+
+    .forkids h1,
+    .forteachers h1,
+    .forresearchers h1{
+       position: absolute;
+       flex-direction: block;
+       top: 10%;
+       left: 0;
+       right: 0;
+       color: white;
+    }
+
+    .forresearchers h1{
+      font-size: 25px;
+    }
+
+    .readmore_button{
+      width: 343px;
+      top: 100%;
+      left: 50%;
+
+    
+    }
+  
+    .forkids h1,
+    .forteachers h1,
+    .forresearchers h1{
+      font-size: 40px;
+    }
+
+    .forresearchers h1{
+      font-size: 35px;
+    }
+
+
+}
