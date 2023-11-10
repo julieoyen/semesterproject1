@@ -132,26 +132,40 @@
        left: 0;
        right: 0;
        color: white;
+       text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
        padding-top: 40px;
     }
 
     .forresearchers h1{
       font-size: 25px;
+      text-shadow: 0 0 3px green, 0 0 5px yellow;
+
+    }
+
+    .forkids p,
+    .forteachers p,
+    .forresearchers p {
+       padding: 0px 20px 20px 20px;
     }
 
     .forkids p{
       background-color: #8661C1;
-      padding: 0px 20px 20px 20px;
+     
     }
 
     .forteachers p{
       background-color: #4084E5;
-      padding: 0px 20px 20px 20px;
     }
 
     .forresearchers p{
       background-color: #3F784C;
-      padding: 0px 20px 20px 20px;
+    }
+
+    .forkids button,
+    .forteachers button,
+    .forresearchers button{
+      font-size: 25px;
+      
     }
 
 
@@ -201,9 +215,9 @@
   font-family: 'Roboto Serif';
   color: #0066BC;
 }
-.showingsdesktop{
-  display: none;
-  
+.showingsmobile{
+  font-family: 'Roboto Serif';
+  color: #0066BC;
 }
 .special_events{
   display: flex;
@@ -272,17 +286,16 @@ padding-bottom: 20px;
   .explore h1{ 
     font-size: 68px;
   }
-  .exploretogether h2{
+  
+  .exploretogether {
     height: 150px;
     width: 150px;
   }
-  .exploretogether p {
+  .exploretogether h2 {
     padding-top: 45px;
     font-size: 18px;
     
   }
- 
-
   .container_age14{
     color: black;
     background-color: #90F9DD;
@@ -381,9 +394,7 @@ opacity: 81%;
 }
 
 
-.showingsmobile{
-  display: none;
-}
+
 .showingsdesktop{
   display: flex;
   
