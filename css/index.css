@@ -132,13 +132,13 @@
        left: 0;
        right: 0;
        color: white;
-       text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+       text-shadow: 0 0 3px black, 0 0 5px #0000FF;
        padding-top: 40px;
     }
 
     .forresearchers h1{
       font-size: 25px;
-      text-shadow: 0 0 3px green, 0 0 5px yellow;
+      text-shadow: 0 0 3px black, 0 0 5px green;
 
     }
 
@@ -286,7 +286,7 @@ padding-bottom: 20px;
   .explore h1{ 
     font-size: 68px;
   }
-  
+
   .exploretogether {
     height: 150px;
     width: 150px;
