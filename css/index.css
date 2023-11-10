@@ -1,4 +1,137 @@
+
+.card1,
+.card2,
+.card3{
+  color: #ffffff;
+  width: 243px;
+  line-height: 1.8;
+  border-radius: 0px 0px 24px 24px;
+  padding-bottom: 10px;
+  top: 50%;
+  bottom: 50%;
+
+}
+.card1{
+  background-color: #8661C1;
+  transform: translate(-0%, -50%);
+}
+.card2{
+  background-color: #4084E5;
+  transform: translate(-0%, -40%);
+}
+
+.card3{
+  background-color: #3F784C;
+  transform: translate(-0%, -50%);
+}
+.forkids,
+.forteachers,
+.forresearchers{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  align-items: center;
+}
+
+
+.buttonforkids{
+  font-size: 30px;
+  font-family: Racing Sans One;
+  align-items: center;
+  cursor: pointer;
+  size: 243px;
+}
+
+#ch1,
+#ch2,
+#ch3 {
+  display: none;
+  font-family: Racing Sans One;
+  
+}
+
+
+#ch1:checked ~ .content1,
+#ch2:checked ~ .content2,
+#ch3:checked ~ .content3 {
+ display: block;
+}
+
+#ch1:checked ~ label #ch1,
+#ch2:checked ~ label #ch2,
+#ch3:checked ~ label #ch3{
+  display: none;
+}
+
+
+label #ch1,
+label #ch2,
+label #ch3{
+  background-color: black;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFF;
+
+}
+
+.content1,
+.content2,
+.content3{
+  display: none;
+  padding: 10px 20px;
+}
+
+
+
+.for_section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+
+  .forkids img,
+  .forteachers img,
+  .forresearchers img{
+    width: 243px;
+  }
+
+  .forkids h1,
+  .forteachers h1,
+  .forresearchers h1{
+     position: absolute;
+     flex-direction: block;
+     top: 10%;
+     left: 0;
+     right: 0;
+     color: white;
+     text-shadow: 0 0 10px black, 0 0 6px #0000FF;
+  }
+
+  .forresearchers h1{
+    font-size: 25px;
+    text-shadow: 0 0 10px black, 0 0 6px yellow;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 .banner_section {
+
   background-image: url("/images/indexheadermobile.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -77,135 +210,8 @@
     color: #0066BC;
   }
 
-  .for_section{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    justify-content: space-around;
-    margin-bottom: 50px;
-  }
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    align-items: center;
-    padding: 60px;
-    
-  }
-  
-  .dropdown_content {
-    display: none;
-    position: absolute;
-    color: #FFF;   
-    border-radius: 0px 0px 24px 24px;
-    z-index: 1;
-    overflow: auto;
-    text-align: center;
-    width: 243px;
-  }
-  
-  .dropdown:hover  .dropdown_content {
-    display: block;
-  }
-
-  .forkids,
-  .forteachers,
-  .forresearchers{
-      position: relative;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .forkids img,
-    .forteachers img,
-    .forresearchers img{
-      width: 243px;
-    }
-
-    .forkids h1,
-    .forteachers h1,
-    .forresearchers h1{
-       position: absolute;
-       flex-direction: block;
-       top: 10%;
-       left: 0;
-       right: 0;
-       color: white;
-       text-shadow: 0 0 10px black, 0 0 6px #0000FF;
-       padding-top: 40px;
-    }
-
-    .forresearchers h1{
-      font-size: 25px;
-      text-shadow: 0 0 10px black, 0 0 6px yellow;
-
-    }
-
-    .forkids p,
-    .forteachers p,
-    .forresearchers p {
-       padding: 0px 20px 20px 20px;
-    }
-
-    .forkids p{
-      background-color: #8661C1;
-     
-    }
-
-    .forteachers p{
-      background-color: #4084E5;
-    }
-
-    .forresearchers p{
-      background-color: #3F784C;
-    }
-
-    .forkids button,
-    .forteachers button,
-    .forresearchers button{
-      font-size: 25px;
-      
-    }
-
-
-    .forkids button{
-     background-color: #8661C1;
-    }
-
-    .forteachers button{
-      background-color: #4084E5;
-    }
-
-    .forresearchers button{
-      background-color: #3F784C;
-    }
-
  
-
-    .readmore_button{
-      position:absolute;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      border: none;
-      color: white;
-      padding: 24px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 18px;
-      cursor: pointer;
-    width: 243px;
-  flex-shrink: 0;
-    text-align: center;
-    font-family: 'Racing Sans One';
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
-    border-radius: 0px 0px 24px 24px;
-    }
-   
+ 
 .special, .showings{
   color:#0066BC;
   text-align: center;
@@ -262,18 +268,6 @@ padding-bottom: 20px;
 .special_event3 p{
   padding: 20px 25px;
   font-size: 12px;
-}
-
-.backbutton_mobile{
-  background-color: rgba(0, 102, 188, 1);
-  background-color: Transparent;
-  border: none;
-  font-size: 14px;
-  font-family: 'Racing Sans One';
-}
-
-.backbutton_mobile:hover{
-  cursor: pointer;
 }
 
 @media (min-width: 1000px) {
@@ -335,6 +329,17 @@ opacity: 81%;
       width: 343px;
     }
 
+    .buttonforkids{
+      width: 343px;
+      
+    }
+
+    .card1,
+    .card2,
+    .card3{
+      width: 343px;
+    }
+
     .forkids h1,
     .forteachers h1,
     .forresearchers h1{
@@ -350,18 +355,8 @@ opacity: 81%;
       font-size: 25px;
     }
 
-    .readmore_button{
-      width: 343px;
-      top: 100%;
-      left: 50%;
-      height: 59px;
-
-    
-    }
-  
     .forkids h1,
-    .forteachers h1,
-    .forresearchers h1{
+    .forteachers h1,{
       font-size: 40px;
     }
 
@@ -403,7 +398,6 @@ opacity: 81%;
 .showingrightnow{
   justify-content: flex-start;
   margin-left: 50px;
-  color: red;
-  
 }
+
 }
