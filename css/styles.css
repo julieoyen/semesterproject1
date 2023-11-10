@@ -3,9 +3,9 @@
     padding: 0;
   }
   
-  .header_logo{
-    width: 100px;
-    
+  .header-logo{
+    padding: 25px 15px;
+    width: 163px;   
   }
   nav {
     background-color: #0066BC;
@@ -80,13 +80,111 @@
     font-family: 'Nunito Sans', sans-serif;
  }
 
+ .backbutton_mobile a{
+  text-decoration: none;
+  color: #0066BC;
+  cursor: pointer;
+ }
+
+.backbutton{
+  text-align: center;
+}
+
+.backbutton i{
+padding-left: 5px;
+}
+ .blue_line{
+  display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #0066BC;
+ }
+
+ .admission,
+ .visitus,
+ .getintouch{
+  display: none;
+ }
+
+ .blue_line{
+  display: flex;
+  flex-direction: row;
+  background-color: #0066BC;
+  padding: 10px 10px;
+
+}
+
+.some{
+  color: white;
+  font-size:large;
+  padding-left: 10x;
+}
+
+.some:hover{
+  cursor: pointer;
+}
+.somedesktop{
+  display: none;
+}
+.freeadmission{
+  margin-right: 0;
+  margin-left: auto;
+  padding-right: 5px;
+  color: white;
+  font-size: 12px;
+
+}
+
+.extra_footer{
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.extra_footer h3{
+  font-family: 'roboto serif';
+  padding-bottom: 5px;
+}
+
+.extra_footer p{
+  font-family: 'nunito sans';
+  font-size: 12px;
+}
+
+.hours_mobile{
+  padding-left: 20px;
+}
+.getintouch_mobile{
+  margin-right:0;
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.fa-solid,
+.fa-regular{
+  padding-right: 10px;
+  color: #0066BC;
+}
+
+.getintouch_mobile p{
+  padding-bottom: 10px;
+}
+
+
  @media (min-width: 720px) {
   .header_text {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    margin-right: 50px;
   }
+
+  .header-logo{
+    padding: 25px;
+    width: 306px; 
+  }  
 
   nav {
     display: flex;
@@ -118,7 +216,64 @@
     
   }
 
-  .hamburger-label {
-    display: none;
-  }
+ .admission,
+ .visitus,
+ .getintouch,
+ .hours_mobile{
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+  margin: 10px;
+  padding: 15px 60px 10px 60px; 
+ }
+
+ .admission,
+ .visitus,
+ .hours_mobile{
+  border-right: 1px solid black;
+
+ }
+
+ .admission h3,
+ .visitus h3,
+ .getintouch h3,
+ .hours_mobile h3{
+  font-size: 20px;
+  padding-bottom: 20px;
+ }
+
+ .admission p,
+ .visitus p,
+ .getintouch p,
+ .hours_mobile p{
+  font-size: 15px;
+  padding-bottom: 3px;
+ }
+ 
+ 
+ .freeadmission,
+ .display,
+ .getintouch_mobile,
+ .hamburger-label,
+ .some{
+  display: none;
+ }
+
+ .blue_line{
+  margin-top: 100px;
+  padding: 10px;
+ }
+
+.somedesktop {
+  display: inline;
+  color: #0066BC;
+  font-size: 18px;
+
+}
+
+.extra_footer{
+  height: 200px;
+}
+
  }
