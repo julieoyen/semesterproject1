@@ -9,20 +9,21 @@
   padding-bottom: 10px;
   top: 50%;
   bottom: 50%;
+  transform: translate(-0%, -1%);
+  margin-bottom: 50px;
 
 }
 .card1{
   background-color: #8661C1;
-  transform: translate(-0%, -50%);
+  
 }
 .card2{
   background-color: #4084E5;
-  transform: translate(-0%, -40%);
+
 }
 
 .card3{
   background-color: #3F784C;
-  transform: translate(-0%, -50%);
 }
 .forkids,
 .forteachers,
@@ -62,7 +63,7 @@
 
 #ch1:checked ~ .buttonforkids2,
 #ch2:checked ~ .buttonforkids2,
-#ch3:checked ~ .buttonforkids3{
+#ch3:checked ~ .buttonforkids2{
   display: none;
 }
 
