@@ -24,19 +24,23 @@
    padding: 20px 10px 20px; 
 }
 
-#hours h3,
-#admission h3,
-#location h3,
-#accessibility h3,
-#foodanddrinks h3,
-#shop h3{
-    padding-bottom: 20px;
-}
+#hours h2,
+#admission h2,
+#location h2,
+#accessibility h2,
+#foodanddrinks h2,
+#shop h2{
+    margin-bottom: 20px;
 
+}
+#location p{
+    padding-bottom: 10px;
+
+}
 .book-btn{
     background-color: #4084E5;
     color: white;
-    border-radius: 24px;
+    border-radius: 20px;
     padding: 5px 14px;
     cursor: pointer;
     border:none;
@@ -46,4 +50,10 @@
 
 .book-btn:hover{
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+iframe{
+width: 500px;
+height: 200px;
+border: 0;
 }
