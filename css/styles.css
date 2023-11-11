@@ -71,6 +71,11 @@
     background-color: #FFFFFF;
   }
   
+
+  .header {
+    text-align: center;
+    color: #0066BC;
+  }
  h1{
     font-family: 'Racing Sans One', sans-serif;
 
@@ -222,7 +227,12 @@ padding-left: 5px;
     float: right;
     
   }
-
+  .header {
+    text-align: center;
+    color: #0066BC;
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
  .admission,
  .visitus,
  .getintouch,
