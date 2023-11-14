@@ -5,9 +5,9 @@
   
 
   .sr-only{
-    display: none
+    display: none;
 
-  } 
+  }
   .header-logo{
     padding: 25px 15px;
     width: 163px;   
@@ -19,13 +19,13 @@
   nav a {
     display: block;
     padding: 10px 20px;
-    color: rgba(0, 102, 188, 1);
+    color: white;
     text-decoration: none;
     font-family: 'Racing Sans One';
   }
 
   nav a:hover{
-    color: white;
+    color: #90F9DD;
   }
   
   nav li {
@@ -45,7 +45,7 @@
     
     display: block;
     padding: 40px, 20px;
-    background: #90F9DD;
+    background: #0066BC;
     text-align: center;
     z-index: 1;
     position:relative;
