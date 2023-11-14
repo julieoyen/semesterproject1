@@ -194,24 +194,24 @@ label #ch3{
    
   }
 
+
+
   .forkids h1,
   .forteachers h1,
   .forresearchers h1{
-
-    background-color: white;
+    color: white;
+    text-shadow: 0 0 10px black, 0 0 10px #0000FF;
   }
 
   .forkids h1{
-    color: #8661C1;
     font-size: 45px;
   }
-  .forteachers h1{
-    color: #4084E5;    
+  .forteachers h1{   
     font-size: 40px;
   }
   .forresearchers h1{
     font-size: 37px;
-    color: #3F784C;
+    text-shadow: 0 0 10px black, 0 0 10px yellow;
   }
 
  
