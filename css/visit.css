@@ -41,6 +41,7 @@
 .book-btn{
     background-color: #0066BC;
     color: white;
+    font-weight: bolder;
     border-radius: 20px;
     padding: 5px 14px;
     cursor: pointer;
