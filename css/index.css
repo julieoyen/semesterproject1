@@ -120,6 +120,7 @@
   align-items: center;
   cursor: pointer;
   size: 243px;
+  font-weight: bolder;
 }
 
 
@@ -329,8 +330,6 @@ opacity: 81%;
 
     .buttonforkids{
       width: 343px;
-      font-weight: bolder;
-      
     }
 
     .card1,
