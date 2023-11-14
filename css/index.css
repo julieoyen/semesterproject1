@@ -115,7 +115,7 @@
 
 .buttonforkids1,
 .buttonforkids2{
-  font-size: 30px;
+  font-size: 35px;
   font-family: Racing Sans One;
   align-items: center;
   cursor: pointer;
@@ -190,13 +190,27 @@ label #ch3{
      left: 0;
      right: 0;
      color: white;
-     text-shadow: 0 0 10px black, 0 0 6px #0000FF;
+   
   }
 
+  .forkids h1,
+  .forteachers h1,
   .forresearchers h1{
-    font-size: 25px;
-    text-shadow: 0 0 10px black, 0 0 6px yellow;
 
+    background-color: white;
+  }
+
+  .forkids h1{
+    color: #8661C1;
+    font-size: 45px;
+  }
+  .forteachers h1{
+    color: #4084E5;    
+    font-size: 40px;
+  }
+  .forresearchers h1{
+    font-size: 37px;
+    color: #3F784C;
   }
 
  
