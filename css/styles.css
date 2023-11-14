@@ -97,22 +97,18 @@ border-width: 0;
     font-family: 'Nunito Sans', sans-serif;
  }
  .backbutton_mobile{
-  background-color: rgba(0, 102, 188, 1);
+  color: rgba(0, 102, 188, 1);
   background-color: Transparent;
   border: none;
   font-size: 14px;
   font-family: 'Racing Sans One';
+  text-decoration: none;
 
 }
 
- .backbutton_mobile a{
-  text-decoration: none;
-  color: #0066BC;
-  cursor: pointer;
- }
-
 .backbutton{
   text-align: center;
+  cursor: pointer;
 }
 
 .backbutton i{
