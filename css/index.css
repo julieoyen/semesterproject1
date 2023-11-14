@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 .banner_section {
 
   background-image: url("/images/indexheadermobile.png");
@@ -91,7 +80,7 @@
 .card2,
 .card3{
   color: #ffffff;
-  width: 243px;
+  width: 343px;
   line-height: 1.8;
   border-radius: 0px 0px 24px 24px;
   padding-bottom: 10px;
@@ -189,7 +178,7 @@ label #ch3{
   .forkids img,
   .forteachers img,
   .forresearchers img{
-    width: 243px;
+    width: 343px;
   }
 
   .forkids h1,
@@ -326,6 +315,7 @@ opacity: 81%;
 
     .buttonforkids{
       width: 343px;
+      font-weight: bolder;
       
     }
 
