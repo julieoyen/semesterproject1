@@ -3,6 +3,11 @@
     padding: 0;
   }
   
+
+  .sr-only{
+    display: none;
+
+  }
   .header-logo{
     padding: 25px 15px;
     width: 163px;   
