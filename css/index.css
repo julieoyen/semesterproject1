@@ -62,12 +62,12 @@
   .container_age14 h2{
     padding-bottom: 10px;
     font-size: 15px;
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', sans-serif;
   }
 
   .container_age14 p{
     font-size: 12px;
-    font-family: 'nunito sans';
+    font-family: 'nunito sans', sans-serif;
   }
 
   .explore{
@@ -116,7 +116,7 @@
 .buttonforkids1,
 .buttonforkids2{
   font-size: 35px;
-  font-family: Racing Sans One;
+  font-family: 'Racing Sans One', sans-serif;
   align-items: center;
   cursor: pointer;
   size: 243px;
@@ -128,7 +128,7 @@
 #ch2,
 #ch3 {
   display: none;
-  font-family: Racing Sans One;
+  font-family: 'Racing Sans One', sans-serif;
   
 }
 
@@ -221,11 +221,11 @@ label #ch3{
   margin: 30px;
 }
 .showings{
-  font-family: 'Roboto Serif';
+  font-family: 'Roboto Serif', sans-serif;
   color: #0066BC;
 }
 .showingsmobile{
-  font-family: 'Roboto Serif';
+  font-family: 'Roboto Serif', sans-serif;
   color: #0066BC;
 }
 .special_events{
@@ -304,14 +304,14 @@ opacity: 81%;
   .container_age14 h2{
     padding-bottom: 10px;
     font-size: 18px;
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto Serif', sans-serif;
     padding-top: 60px;
 
   }
 
   .container_age14 p{
     font-size: 12px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
   }
 
   .for_section{
