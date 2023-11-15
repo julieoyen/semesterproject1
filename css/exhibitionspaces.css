@@ -5,8 +5,6 @@ flex-wrap: wrap;
 justify-content: center;
 justify-content: space-around;
 border-radius: 22px;
- 
-   
 
 }
 
@@ -30,10 +28,17 @@ border-radius: 22px;
     border-radius: 22px 22px 0px 0px;
     border-bottom:  3px solid rgba(0, 102, 188, 1);
 
+
 }
 .exhibitionh3{
     text-align: center;
     font-family: 'Racing sans one';
     padding: 5px;
     font-size: 25px;
+}
+
+#logo{
+width:auto;
+border: none;
+align-items: ;
 }
