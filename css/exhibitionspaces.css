@@ -1,0 +1,39 @@
+.exhibitionflex{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+border-radius: 22px;
+ 
+   
+
+}
+
+.exhibitioninfo{
+    height: auto;
+    width: 500px;
+    border-radius: 22px;
+    margin: 15px;
+    text-align: justify;
+   border:  3px solid rgba(0, 102, 188, 1);
+
+}
+
+.exhibitioninfo p{
+    padding: 5px;
+    margin: 15px;
+}
+
+.exhibitioninfo img{
+    width: 500px;
+    border-radius: 22px 22px 0px 0px;
+    border-bottom:  3px solid rgba(0, 102, 188, 1);
+
+}
+.exhibitionh3{
+    text-align: center;
+    font-family: 'Racing sans one';
+    padding: 5px;
+    font-size: 25px;
+}
