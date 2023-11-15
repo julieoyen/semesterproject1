@@ -80,10 +80,7 @@ border-width: 0;
   }
 
   body{
-    background-color: #f3fefb
-
-
-    ;
+    background-color: #f3fefb;
   }
   
 
@@ -214,7 +211,11 @@ padding-left: 5px;
   nav {
     display: flex;
     align-items: center;
-    background: white; 
+    background:  #f3fefb; 
+  }
+
+  nav a:hover{
+    color: white;
   }
 
   nav li:hover{
