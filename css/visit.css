@@ -59,3 +59,12 @@ width: auto;
 height: 200px;
 border: 0;
 }
+
+@media (min-width: 1000px) {
+    .info-box{
+        width: 1000px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+}
