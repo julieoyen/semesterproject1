@@ -163,7 +163,7 @@ padding-left: 5px;
   padding-bottom: 20px;
 }
 
-.extra_footer h3{
+.extra_footer h4{
   font-family: 'roboto serif', sans-serif;
   padding-bottom: 5px;
 }
@@ -306,10 +306,10 @@ padding-left: 5px;
 
  }
 
- .admission h3,
- .visitus h3,
- .getintouch h3,
- .hours_mobile h3{
+ .admission h4,
+ .visitus h4,
+ .getintouch h4,
+ .hours_mobile h4{
   font-size: 20px;
   padding-bottom: 20px;
  }
