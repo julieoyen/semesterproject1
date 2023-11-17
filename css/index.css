@@ -240,8 +240,6 @@ label #ch3{
   flex-wrap: wrap;
 }
 
-
-
 .special_event1, 
 .special_event2, 
 .special_event3{
@@ -252,7 +250,6 @@ width: 360px;
 height: auto;
 margin-bottom: 50px;
 padding-bottom: 20px;
-
 }
 
 .special_event1 img, 
@@ -262,13 +259,14 @@ padding-bottom: 20px;
   border-radius: 22px 22px 0px 0px;
 }
 
-.special_event1 h2, 
-.special_event2 h2,
-.special_event3 h2{
+.special_event1 h3, 
+.special_event2 h3,
+.special_event3 h3{
   font-size: 18px; 
   font-family: 'Racing Sans One', sans-serif;
   text-align: center;
   padding-top: 10px;
+  color: #0066BC;
 }
 
 .special_event1 p, 

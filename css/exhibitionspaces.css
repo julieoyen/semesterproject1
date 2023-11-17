@@ -4,14 +4,37 @@
     width: 350px;
     border-radius: 22px;
     margin: 30px;
-    text-align: justify;
+    text-align: start;
    border:  3px solid rgba(0, 102, 188, 1);
    background-color: white;
    
 
 }
+.exhibitioninfo1{
+    height: auto;
+    width: 350px;
+    border-radius: 22px;
+    margin: 30px;
+   border:  3px solid rgba(0, 102, 188, 1);
+   background-color: white;
+   padding-top: 40px;
+}
 
-.exhibitioninfo p{
+.exhibitioninfo1 p{
+    text-align: left;
+}
+
+.exhibitioninfo1{
+    font-family: 'Nunito sans', sans-serif;
+}
+
+.exhibitioninfo1 h4{
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.exhibitioninfo p,
+.exhibitioninfo1 p{
     padding: 5px;
     margin: 15px;
 }
@@ -20,21 +43,16 @@
     width: 350px;
     border-radius: 22px 22px 0px 0px;
     border-bottom:  3px solid rgba(0, 102, 188, 1);
-
-
 }
 .exhibitionh3{
     text-align: center;
     font-family: 'Racing sans one', sans-serif;
     padding: 5px;
     font-size: 25px;
+    color: #0066BC;
+   padding-top: 10px;
 }
 
-#logo{
-width:auto;
-border: none;
-
-}
 
 @media (min-width: 1000px) {
 
