@@ -19,13 +19,21 @@
     <div class="header_text">
     <a href="index.html"><img src="images/logodesktoplogo.png" alt="community science museum logo" class="header-logo" aria-label="Home button"></a>
 
-    <input type="checkbox" name="Hamburger Menu" id="hamburger-menu">
+    <input aria-hidden="true" type="checkbox" name="Hamburger Menu" id="hamburger-menu">
     <label class="hamburger-label" for="hamburger-menu">
       <i aria-hidden="true" title="Menu" class="fas fa fa-bars"></i>
-     <span class="sr-only">
-     Menu
-     </span></label>
 
+    <nav aria-label="Main Menu">
+      <ul class="nav-content" >
+        <li><a href="visit.html" class="nav">VISIT</a></li>
+        <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
+        <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
+        <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="sr-only">
     <nav aria-label="Main Menu">
       <ul class="nav-content" >
         <li><a href="visit.html" class="nav">VISIT</a></li>
