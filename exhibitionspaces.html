@@ -19,15 +19,13 @@
     <div class="header_text">
     <a href="index.html"><img src="images/logodesktoplogo.png" alt="community science museum logo" class="header-logo" aria-label="Home button"></a>
 
-    <input type="checkbox" name="Hamburger Menu" id="hamburger-menu">
-    <label class="hamburger-label" for="hamburger-menu">
-      <i aria-hidden="true" title="Menu" class="fas fa fa-bars"></i>
-     <span class="sr-only">
-     Menu
-     </span></label>
-
-    <nav aria-label="Main Menu">
+    
+    <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu" class="fas fa fa-bars"></i><span class="sr-only">Menu</span>
+    </label>
+    <input type="checkbox" name="Hamburger Menu" aria-label="checkbox" id="hamburger-menu">
+    <nav role="navigation" aria-label="Main Menu">
       <ul class="nav-content" >
+        <li class="sr-only"><a href="index.html" class="nav">HOME</a></li>
         <li><a href="visit.html" class="nav">VISIT</a></li>
         <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
         <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
@@ -36,7 +34,19 @@
     </nav>
   </div>
 
+  <div class="sr-only">
+    <nav role="navigation" aria-label="Main Menu">
+      <ul class="nav-content" >
+        <li><a href="index.html" class="nav">HOME</a></li>
+        <li><a href="visit.html" class="nav">VISIT</a></li>
+        <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
+        <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
+        <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </div>
   </header> 
+
   <main>
     <h1 class="header">EXHIBITION SPACES</h1>
     <div class="inthispage">
