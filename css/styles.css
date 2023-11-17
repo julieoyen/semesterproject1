@@ -191,6 +191,7 @@ padding-left: 5px;
 
 .getintouch_mobile p{
   padding-bottom: 10px;
+
 }
 
 .inthispage{
@@ -205,10 +206,13 @@ padding-left: 5px;
     background-color: #d2fcf1;
     margin-bottom: 4px;
     padding: 10px;
+
+
 }
 
 .anchor h2{
-    font-family: 'Roboto Serif', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;    
+    
 }
 
 .anchor a{
@@ -216,6 +220,7 @@ padding-left: 5px;
     color: black;
     font-family: 'Nunito Sans', sans-serif;
     cursor: pointer;
+  
 }
 
 .anchor a:hover{
