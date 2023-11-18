@@ -21,3 +21,27 @@
 .thankyou img{
     padding-top: 40px;
 }
+
+.thankyoubtn{
+    background-color: #0066BC;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 5px 14px;
+    cursor: pointer;
+    border:none;
+    margin-top: 20px;
+    font-family: 'Nunito Sans';
+    text-decoration: none;
+}
+
+.thankyoubtn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+
+}
+@media (min-width: 1000px){
+    .thankyou{
+        margin: 0px 400px;
+    }
+}
