@@ -114,6 +114,26 @@ border-width: 0;
 .backbutton i{
 padding-left: 5px;
 }
+
+
+.btn{
+  background-color: #0066BC;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 5px 14px;
+  cursor: pointer;
+  border:none;
+  margin-top: 20px;
+  font-family: 'Nunito Sans';
+  text-decoration: none;
+}
+
+.btn:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+
+}
  .blue_line{
   display: flex;
   margin-top: 50px;
