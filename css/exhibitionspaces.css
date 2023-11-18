@@ -17,15 +17,13 @@
     margin: 30px;
    border:  3px solid rgba(0, 102, 188, 1);
    background-color: white;
-   padding-top: 40px;
+   padding-top: 40px; 
+   font-family: 'Nunito sans', sans-serif;
+
 }
 
 .exhibitioninfo1 p{
     text-align: left;
-}
-
-.exhibitioninfo1{
-    font-family: 'Nunito sans', sans-serif;
 }
 
 .exhibitioninfo1 h3{
@@ -53,9 +51,11 @@
    padding-top: 10px;
 }
 
+
 @media (min-width: 1000px) {
 
-.exhibitioninfo{
+.exhibitioninfo,
+.exhibitioninfo1{
     width: 400px;
 }
 
