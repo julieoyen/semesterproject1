@@ -237,6 +237,8 @@ p {
 
 .getintouch_mobile p {
   padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 /*---------------------------------------------------------- ANCHOR BOX */
