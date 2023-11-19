@@ -15,6 +15,7 @@ h1{
 .textwlogo h2{
     font-family: 'Roboto serif';
     padding: 15px ;
+    font-size: 20px;
 }
 #aboutlogo{
     text-align: center;
@@ -29,6 +30,7 @@ border-bottom: #0066BC 2px solid ;
 
 .aboutustext p{
     padding: 15px 15px 5px 15px;
+    font-size: 14px;
 }
 
   #museumdesktop{
