@@ -172,9 +172,7 @@ label #ch3{
   position: relative;
   justify-content: space-around;
   margin-bottom: 50px;
-  align-items: center;
 }
-
 
 
   .forkids img,
@@ -186,24 +184,30 @@ label #ch3{
   .forkids h1,
   .forteachers h1,
   .forresearchers h1{
-    color: white;
-    text-shadow: 2px 2px black;   
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    position: absolute;
-    flex-direction: block;
-    top: 10%;
-    left: 0;
-    right: 0;
+     position: absolute;
+     flex-direction: block;
+     top: 10%;
+     left: 0;
+     right: 0;
+     color: white;
+   
+  }
+
+
+
+  .forkids h1,
+  .forteachers h1,
+  .forresearchers h1{
+    color: #f3fefb;;
+    text-shadow: -1px 0 black, 0 2px black, 3px 0 black, 0 -1px black;
 
   }
 
   .forkids h1{
-    font-size: 45px;
-
+    font-size: 45px;    
   }
   .forteachers h1{   
-    font-size: 40px;
+    font-size: 40px; 
   }
   .forresearchers h1{
     font-size: 35px;
