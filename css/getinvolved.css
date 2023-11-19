@@ -41,7 +41,14 @@
     margin-top: 20px;
     border-radius: 0px 0px 22px 22px;
 }
+.submitbutton{
+    text-align: center;
+    margin-top: 70px;
+}
 
+.backbutton{
+    margin: 40px;
+}
 @media (min-width: 1000px) {
 
     .infobox {
@@ -51,6 +58,10 @@
     .infobox img {
         width: 400px;
 
+    }
+
+    .backbutton{
+        margin-top: 100px;
     }
 
 }
