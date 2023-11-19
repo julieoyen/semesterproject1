@@ -1,79 +1,84 @@
-h1{
+h1 {
     padding-bottom: 40px;
 }
-.aboutuspage{
+
+.aboutuspage {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.aboutustext{
+
+.aboutustext {
     border-radius: 24px;
-    border:#0066BC 2px solid ;
+    border: #0066BC 2px solid;
     background-color: white;
     width: 354px;
 }
-.textwlogo h2{
+
+.textwlogo h2 {
     font-family: 'Roboto serif';
-    padding: 15px ;
+    padding: 15px;
     font-size: 20px;
 }
-#aboutlogo{
+
+#aboutlogo {
     text-align: center;
 
 }
 
-#museum{
-border-radius: 24px 24px 0px 0px;
-border-bottom: #0066BC 2px solid ;
+#museum {
+    border-radius: 24px 24px 0px 0px;
+    border-bottom: #0066BC 2px solid;
 }
 
 
-.aboutustext p{
+.aboutustext p {
     padding: 15px 15px 5px 15px;
     font-size: 14px;
 }
 
-  #museumdesktop{
+#museumdesktop {
     display: none;
-  }
-  
+}
 
 
-  @media (min-width: 1000px) {
-  .contact-info {
-    padding: 100px;
-    font-size: 17px;
-  flex-direction: column;
-  }
 
-  .aboutustext{
-    display: flex;
-    flex-direction: row;
-    width: 900px;
-  }
+@media (min-width: 1000px) {
+    .contact-info {
+        padding: 100px;
+        font-size: 17px;
+        flex-direction: column;
+    }
 
-  .museumimg{
-    padding: 50px;
-  }
+    .aboutustext {
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+    }
 
-  .museumimg img{
-    border: none;
-  }
-  #museum{
-    display: none;
+    .museumimg {
+        padding: 50px;
+    }
 
-  }
+    .museumimg img {
+        border: none;
+    }
 
-  #museumdesktop{
-    display: flex;
-    border-radius: 22px;
-    margin-top: 40px ;
+    #museum {
+        display: none;
 
-  }
+    }
+
+    #museumdesktop {
+        display: flex;
+        border-radius: 22px;
+        margin-top: 40px;
+
+    }
 
 
-  .textwlogo {
-    margin-top: 20px;
-  }
-  
+    .textwlogo {
+        margin-top: 20px;
+    }
+
 }

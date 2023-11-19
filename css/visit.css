@@ -1,4 +1,4 @@
-.info-box{
+.info-box {
     background-color: white;
     border-color: #0066BC;
     border-radius: 24px;
@@ -11,8 +11,8 @@
 #admission,
 #location,
 #accessibility,
-#foodanddrinks{
- border-bottom: 1px solid black;
+#foodanddrinks {
+    border-bottom: 1px solid black;
 }
 
 #hours,
@@ -20,8 +20,8 @@
 #location,
 #accessibility,
 #foodanddrinks,
-#shop{
-   padding: 20px 10px 20px; 
+#shop {
+    padding: 20px 10px 20px;
 }
 
 #hours h2,
@@ -29,39 +29,41 @@
 #location h2,
 #accessibility h2,
 #foodanddrinks h2,
-#shop h2{
+#shop h2 {
     margin-bottom: 20px;
     font-family: 'Roboto Serif';
 
 }
-#location p{
+
+#location p {
     padding-bottom: 10px;
 
 }
-.book-btn{
+
+.book-btn {
     background-color: #0066BC;
     color: white;
     font-weight: bolder;
     border-radius: 20px;
     padding: 5px 14px;
     cursor: pointer;
-    border:none;
+    border: none;
     margin-top: 20px;
     font-family: 'Nunito Sans';
 }
 
-.book-btn:hover{
- box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.book-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-iframe{
-width: auto;
-height: 200px;
-border: 0;
+iframe {
+    width: auto;
+    height: 200px;
+    border: 0;
 }
 
 @media (min-width: 1000px) {
-    .info-box{
+    .info-box {
         width: 1000px;
         align-items: center;
         justify-items: center;

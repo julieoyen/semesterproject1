@@ -1,33 +1,33 @@
-.flexbox2{
+.flexbox2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    }
+}
 
-.infobox{
-    display:flex;
+.infobox {
+    display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
-    border-radius: 22px  ;
+    border-radius: 22px;
     margin: 30px;
-   border: solid 3px rgba(0, 102, 188, 1);
-   background-color: white;
-   padding-top: 30px;
-   font-family: 'Nunito sans', sans-serif;
-   flex-grow:0;
-   flex-shrink:0; 
-   width: 350px;
+    border: solid 3px rgba(0, 102, 188, 1);
+    background-color: white;
+    padding-top: 30px;
+    font-family: 'Nunito sans', sans-serif;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 350px;
 }
 
-.infobox p{
+.infobox p {
     text-align: left;
     padding: 0px 20px 20px 20px;
 }
 
-.infobox h3{
+.infobox h3 {
     font-family: 'Racing sans one';
     text-align: center;
     font-size: 25px;
@@ -35,22 +35,22 @@
     padding-bottom: 20px;
 }
 
-.infobox img{
+.infobox img {
     border-top: solid 2px rgba(0, 102, 188, 1);
     width: 350px;
     margin-top: 20px;
-    border-radius: 0px 0px 22px 22px ;
+    border-radius: 0px 0px 22px 22px;
 }
 
 @media (min-width: 1000px) {
 
-    .infobox{
+    .infobox {
         width: 400px;
     }
-    
-    .infobox img{
+
+    .infobox img {
         width: 400px;
 
     }
-    
-    }
+
+}

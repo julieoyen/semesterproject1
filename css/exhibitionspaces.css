@@ -1,66 +1,67 @@
-
-.exhibitioninfo{
+.exhibitioninfo {
     height: auto;
     width: 350px;
     border-radius: 22px;
     margin: 30px;
     text-align: start;
-   border:  3px solid rgba(0, 102, 188, 1);
-   background-color: white;
-   
+    border: 3px solid rgba(0, 102, 188, 1);
+    background-color: white;
+
 
 }
-.exhibitioninfo1{
+
+.exhibitioninfo1 {
     height: auto;
     width: 350px;
     border-radius: 22px;
     margin: 30px;
-   border:  3px solid rgba(0, 102, 188, 1);
-   background-color: white;
-   padding-top: 40px; 
-   font-family: 'Nunito sans', sans-serif;
+    border: 3px solid rgba(0, 102, 188, 1);
+    background-color: white;
+    padding-top: 40px;
+    font-family: 'Nunito sans', sans-serif;
 
 }
 
-.exhibitioninfo1 p{
+.exhibitioninfo1 p {
     text-align: left;
 }
 
-.exhibitioninfo1 h3{
+.exhibitioninfo1 h3 {
     padding-top: 5px;
     font-size: 17px;
 }
 
 .exhibitioninfo p,
-.exhibitioninfo1 p{
+.exhibitioninfo1 p {
     padding: 5px;
     margin: 15px;
 }
 
-.exhibitioninfo img{
+.exhibitioninfo img {
     width: 350px;
     border-radius: 22px 22px 0px 0px;
-    border-bottom:  3px solid rgba(0, 102, 188, 1);
+    border-bottom: 3px solid rgba(0, 102, 188, 1);
 }
-.exhibitionh3{
+
+.exhibitionh3 {
     text-align: center;
     font-family: 'Racing sans one', sans-serif;
     padding: 5px;
     font-size: 25px;
     color: #0066BC;
-   padding-top: 10px;
+    padding-top: 10px;
 }
 
 
 @media (min-width: 1000px) {
 
-.exhibitioninfo,
-.exhibitioninfo1{
-    width: 400px;
-}
+    .exhibitioninfo,
+    .exhibitioninfo1 {
+        width: 400px;
+    }
 
-.exhibitioninfo img{
-    width: 400px;
-}
+    .exhibitioninfo img {
+        width: 400px;
+    }
 
 }
