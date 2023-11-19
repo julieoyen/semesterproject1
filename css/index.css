@@ -182,6 +182,8 @@ label #ch3{
   .forteachers img,
   .forresearchers img{
     width: 343px;
+    opacity: .5;
+    
   }
 
   .forkids h2,
@@ -190,21 +192,15 @@ label #ch3{
      position: absolute;
      flex-direction: block;
      top: 10%;
+     color: black;
+   
+     
    
   }
 
-
-
-  .forkids h2,
-  .forteachers h2,
-  .forresearchers h2{
-    color: #000;
-    text-shadow: -1px 0 white, 0 2px white, 3px 0 white, 0 -1px white;
-
-  }
-
   .forkids h2{
-    font-size: 45px;    
+    font-size: 45px;
+   
   }
   .forteachers h2{   
     font-size: 40px; 
