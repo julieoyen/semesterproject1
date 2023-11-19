@@ -1,3 +1,72 @@
+h1{
+    padding-bottom: 40px;
+}
+.aboutuspage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutustext{
+    border-radius: 24px;
+    border:#0066BC 2px solid ;
+    background-color: white;
+    width: 354px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#aboutlogo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+#museum{
+border-radius: 24px 24px 0px 0px;
+border-bottom: #0066BC 2px solid ;
+
+}
+
+.aboutuspage h2{
+    padding: 10px;
+    text-align: center ;
+}
+
+.aboutustext p{
+    padding: 10px;
+}
+
+.aboutusform{
+    border-radius: 24px;
+    border:#0066BC 2px solid ;
+    width: 280px;
+    height: 400px;
+    padding: 40px;
+    background-color: white;
+    margin: 50px 0px;
+    
+}
+
+.aboutusform h3{
+    color: #0066BC;
+    align-items: center;
+    font-family: 'Racing Sans One';
+    font-size: 25px;
+    text-align: center;
+}
+
+.aboutusform input,
+.aboutusform textarea{
+    font-family: 'nunito sans', sans-serif;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+.aboutusform textarea{
+    padding-bottom: 150px;
+}
 .contact-form{
     display: flex;
     flex-direction: column;
