@@ -79,7 +79,7 @@
       <div class="forkids">
         <h1>FOR KIDS</h1>
         <img src="images/finalforkids.jpg" alt="Picture of a kid wearing VR glasses">
-        <div class="card1">
+        <div aria-hidden="true" class="card1">
           <input aria-labelledby="read1" id="ch1" type="checkbox">
           <div class="content1">
             <p>Are you a young person looking to learn more about science?
@@ -96,13 +96,22 @@
           </div>
           <label for="ch1" id="read1" aria-label="button" class="buttonforkids2">READ MORE</label>
         </div>
+        <div class="sr-only">
+          <p>Are you a young person looking to learn more about science?
+            Come on down to our museum, there's plenty to see and do.</p>
 
+          <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our
+            resident Woolly Mammoth? </p>
+
+          <p>Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and
+            explore.</p>
+        </div>
       </div>
 
       <div class="forteachers">
         <h1>FOR TEACHERS</h1>
         <img src="images/finalforteachers.jpg" alt="Picture of a teacher showing students a microscope">
-        <div class="card2">
+        <div aria-hidden="true" class="card2">
           <input id="ch2" type="checkbox" aria-labelledby="read2">
           <div class="content2">
             <p>As a community-driven museum, we want to work with schools to create places of learning and exploring.
@@ -119,15 +128,22 @@
           </div>
           <label for="ch2" id=read2 aria-label="button" class="buttonforkids2">READ MORE</label>
         </div>
+        <div class="sr-only">
+        <p>As a community-driven museum, we want to work with schools to create places of learning and exploring.
+        </p>
 
+        <p>Our team are on hand to give your students guided tours of the museum, teach them in our learning
+          laboratory, and provide great video presentations that will excite and inspire them.</p>
+
+        <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring
+          your students through for a visit.</p>
+        </div>
       </div>
 
       <div class="forresearchers">
         <h1> FOR RESEARCHERS</h1>
         <img src="images/finalforresearchers.jpg" alt="Picture of a researcher looking through a microscope">
-        <div class="card3">
-
-
+        <div aria-hidden="true" class="card3">
           <input aria-labelledby="read3" id="ch3" type="checkbox">
           <div class="content3">
             <p>Are you looking to get involved with our team of researchers and academics?</p>
@@ -142,7 +158,15 @@
           </div>
           <label for="ch3" id="read3" aria-hidden="true" aria-label="button" class="buttonforkids2">READ MORE</label>
         </div>
+        <div class="sr-only">
+          <p>Are you looking to get involved with our team of researchers and academics?</p>
 
+            <p>Our museum offers various ways for you to use our resources and contribute towards them. </p>
+
+            <p>We have online records, laboratory space, and a working relationship with a number of universities around
+              the country.</p>
+
+        </div>
       </div>
 
 
