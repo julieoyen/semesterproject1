@@ -1,3 +1,4 @@
+
 .banner_section {
 
   background-image: url("/images/indexheadermobile.png");
@@ -102,15 +103,6 @@
 .card3{
   background-color: #3F784C;
 }
-.forkids,
-.forteachers,
-.forresearchers{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
-  align-items: center;
-}
 
 
 .buttonforkids1,
@@ -174,6 +166,17 @@ label #ch3{
   margin-bottom: 50px;
 }
 
+.forkids,
+.forteachers,
+.forresearchers{
+  font-family: 'Racing Sans One';
+  font-weight: 100;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  align-items: center;
+}
 
   .forkids img,
   .forteachers img,
@@ -181,35 +184,31 @@ label #ch3{
     width: 343px;
   }
 
-  .forkids h1,
-  .forteachers h1,
-  .forresearchers h1{
+  .forkids h2,
+  .forteachers h2,
+  .forresearchers h2{
      position: absolute;
      flex-direction: block;
      top: 10%;
-     left: 0;
-     right: 0;
-     color: white;
    
   }
 
 
 
-  .forkids h1,
-  .forteachers h1,
-  .forresearchers h1{
-    color: #f3fefb;;
-    text-shadow: -1px 0 black, 0 2px black, 3px 0 black, 0 -1px black;
+  .forkids h2,
+  .forteachers h2,
+  .forresearchers h2{
+    text-shadow: -1px 0 white, 0 2px white, 3px 0 white, 0 -1px white;
 
   }
 
-  .forkids h1{
+  .forkids h2{
     font-size: 45px;    
   }
-  .forteachers h1{   
+  .forteachers h2{   
     font-size: 40px; 
   }
-  .forresearchers h1{
+  .forresearchers h2{
     font-size: 35px;
   }
 
@@ -342,9 +341,10 @@ opacity: 81%;
       width: 343px;
     }
 
-    .forkids h1,
-    .forteachers h1,
-    .forresearchers h1{
+    .forkids h2,
+    .forteachers h2,
+    .forresearchers h2{
+      font-family: 'Racing Sans One';
        position: absolute;
        flex-direction: block;
        top: 10%;
@@ -353,16 +353,16 @@ opacity: 81%;
        color: white;
     }
 
-    .forresearchers h1{
+    .forresearchers h2{
       font-size: 25px;
     }
 
-    .forkids h1,
-    .forteachers h1{
+    .forkids h2,
+    .forteachers h2{
       font-size: 40px;
     }
 
-    .forresearchers h1{
+    .forresearchers h2{
       font-size: 35px;
     }
 
