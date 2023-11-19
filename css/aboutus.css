@@ -41,7 +41,9 @@ h1 {
     display: none;
 }
 
-
+.backbutton{
+    padding: 70px;
+}
 
 @media (min-width: 1000px) {
     .contact-info {
@@ -79,6 +81,10 @@ h1 {
 
     .textwlogo {
         margin-top: 20px;
+    }
+
+    .backbutton{
+        padding: 20px;
     }
 
 }
