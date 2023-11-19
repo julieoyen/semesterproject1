@@ -233,6 +233,7 @@ p {
 .fa-regular {
   padding-right: 10px;
   color: #0066BC;
+  text-decoration: none;
 }
 
 .getintouch_mobile p {
