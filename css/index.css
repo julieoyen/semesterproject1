@@ -198,6 +198,7 @@ label #ch3{
   .forkids h2,
   .forteachers h2,
   .forresearchers h2{
+    color: #000;
     text-shadow: -1px 0 white, 0 2px white, 3px 0 white, 0 -1px white;
 
   }
