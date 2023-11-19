@@ -42,6 +42,10 @@
     border-radius: 0px 0px 22px 22px;
 }
 
+.phone{
+    text-decoration: none;
+}
+
 @media (min-width: 1000px) {
 
     .infobox {
