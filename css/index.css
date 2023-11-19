@@ -182,7 +182,6 @@ label #ch3{
   .forteachers img,
   .forresearchers img{
     width: 343px;
-    opacity: .5;
     
   }
 
@@ -192,7 +191,6 @@ label #ch3{
      position: absolute;
      flex-direction: block;
      top: 10%;
-     color: black;
    
      
    
@@ -200,13 +198,24 @@ label #ch3{
 
   .forkids h2{
     font-size: 45px;
-   
+    color: #8661C1; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
   }
   .forteachers h2{   
     font-size: 40px; 
+    color: #4084E5; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px; 
   }
   .forresearchers h2{
     font-size: 35px;
+    color:#3F784C;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px; 
   }
 
  
