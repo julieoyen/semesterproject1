@@ -71,8 +71,7 @@
    <h1 >FOR KIDS</h1> 
   <img src="images/finalforkids.jpg" alt="Picture of a kid wearing VR glasses">
   <div class="card1">
-    <input role="checkbox" id="ch1" type="checkbox">
-    <input role="checkbox" id="ch12" type="checkbox">
+    <input id="ch1" type="checkbox" aria-labelledby="A B">
     <div class="content1">
     <p>Are you a young person looking to learn more about science?
       Come on down to our museum, there's plenty to see and do.</p>
@@ -81,19 +80,18 @@
       
       <p>Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
   
-      <label for="ch12" id="read1" aria-label="button" class="buttonforkids1">CLOSE</label>
+      <label for="ch1" id="A" aria-hidden="true" aria-label="button" class="buttonforkids1">CLOSE</label>
   
   </div>
-  <label for="ch1"  aria-label="button" class="buttonforkids2">READ MORE</label>
+  <label for="ch1" id="B" aria-label="button" class="buttonforkids2">READ MORE</label>
   </div>
-  
 </div>
 
 <div class="forteachers">
   <h1>FOR TEACHERS</h1> 
  <img src="images/finalforteachers.jpg" alt="Picture of a teacher showing students a microscope">
  <div class="card2">
-   <input id="ch2" type="checkbox" aria-labelledby="ch2close ch2readmore">
+   <input id="ch2" type="checkbox" aria-labelledby="read2">
    <div class="content2">
     <p>As a community-driven museum, we want to work with schools to create places of learning and exploring.</p>
               
@@ -101,10 +99,10 @@
     
     <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
  
-     <label for="ch2" id="ch2close" aria-label="button" aria-describedby="description close" class="buttonforkids1">CLOSE</label>
+     <label for="ch2" aria-label="button" class="buttonforkids1" aria-hidden="true">CLOSE</label>
  
  </div>
- <label for="ch2" id="ch2readmore" aria-label="button" class="buttonforkids2">READ MORE</label>
+ <label for="ch2" id=read2 aria-label="button" class="buttonforkids2">READ MORE</label>
  </div>
  
 </div>
