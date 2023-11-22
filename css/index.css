@@ -182,7 +182,7 @@ label #ch3{
   .forteachers img,
   .forresearchers img{
     width: 343px;
-    opacity: 50%;
+    opacity: 60%;
 
     
   }
@@ -196,7 +196,7 @@ label #ch3{
      z-index: 1;
      padding: 0px 10px;
      border-radius: 10px; 
-     text-shadow: 1px 1px black;
+     text-shadow: 0 0 3px white;
      font-weight: bolder;
    
   }
