@@ -196,7 +196,7 @@ label #ch3{
      z-index: 1;
      padding: 0px 10px;
      border-radius: 10px; 
-     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
      font-weight: bolder;
    
   }
@@ -355,18 +355,6 @@ opacity: 81%;
     .card2,
     .card3{
       width: 343px;
-    }
-
-    .forkids h2,
-    .forteachers h2,
-    .forresearchers h2{
-      font-family: 'Racing Sans One';
-       position: absolute;
-       flex-direction: block;
-       top: 10%;
-       left: 0;
-       right: 0;
-       color: white;
     }
 
     .forresearchers h2{
