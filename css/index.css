@@ -193,31 +193,25 @@ label #ch3{
      flex-direction: block;
      top: 10%;
      z-index: 3;
-   
-     
+     padding: 0px 10px;
+     border-radius: 10px;
    
   }
 
   .forkids h2{
     font-size: 45px;
     color: #8661C1; 
-    background-color: white;
-    border-radius: 10px;
-    padding: 0px 10px;
+    background-color: white; 
   }
   .forteachers h2{   
     font-size: 40px; 
     color: #4084E5; 
-    background-color: white;
-    border-radius: 10px;
-    padding: 0px 10px; 
+    background-color: white; 
   }
   .forresearchers h2{
     font-size: 35px;
     color:#3F784C;
-    background-color: white;
-    border-radius: 10px;
-    padding: 0px 10px; 
+    background-color: white; 
   }
 
  
