@@ -195,13 +195,15 @@ label #ch3{
      top: 10%;
      z-index: 1;
      padding: 0px 10px;
-     border-radius: 10px;
+     border-radius: 10px; 
+     text-shadow: 1px 1px white;
    
   }
 
   .forkids h2{
     font-size: 45px;
     color: #8661C1; 
+   
   
   }
   .forteachers h2{   
