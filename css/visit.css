@@ -1,3 +1,7 @@
+.flex{
+    display: flex;
+}
+
 .info-box {
     background-color: white;
     border-color: #0066BC;
@@ -62,11 +66,26 @@ iframe {
     border: 0;
 }
 
+#onlydesktop{
+    display: none;
+}
+
 @media (min-width: 1000px) {
     .info-box {
         width: 1000px;
         align-items: center;
         justify-items: center;
         justify-content: center;
+    }
+
+    #onlydesktop{
+        display: flex;
+        margin: 30px 15px;
+        height: 200px;
+        width: 200px;
+    }
+
+    #onlydesktop h3{
+        font-family: 'Roboto serif';
     }
 }

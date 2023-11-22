@@ -41,6 +41,7 @@
     width: 350px;
     border-radius: 22px 22px 0px 0px;
     border-bottom: 3px solid rgba(0, 102, 188, 1);
+    object-fit: cover;
 }
 
 .exhibitionh3 {
