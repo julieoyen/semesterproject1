@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0066BC">
-  <title> Welcome to The Community Science Museum | Home</title>
-  <meta name="description" content="Home page of the Community Science museum">
+  <title> Welcome to The Community Science Museum | Book a tour</title>
+  <meta name="description" content="On this page, you can book a tour at the museum">
   <link href="css/styles.css" rel="stylesheet">
-  <link href="css/visit.css" rel="stylesheet">
+  <link href="css/bookatour.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/94f8d6093f.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,6 @@
       <input type="checkbox" name="Hamburger Menu" aria-label="checkbox" id="hamburger-menu">
       <nav aria-label="Main Menu">
         <ul class="nav-content">
-          <li class="sr-only"><a href="index.html" class="nav">HOME</a></li>
           <li><a href="visit.html" class="nav">VISIT</a></li>
           <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
           <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
@@ -41,68 +40,85 @@
     </div>
 
     <div class="sr-only">
-      <nav aria-label="Main Menu">
-        <ul class="nav-content">
-          <li><a href="index.html" class="nav">HOME</a></li>
-          <li><a href="visit.html" class="nav">VISIT</a></li>
-          <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
-          <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
-          <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
-        </ul>
-      </nav>
+      <div class="srmobile">
+        <nav aria-label="Main Menu">
+          <ul class="nav-content">
+            <li><a href="visit.html" class="nav">VISIT</a></li>
+            <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
+            <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
+            <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
+
   <main>
-    <h1 class="header">VISIT</h1>
-    <div class="flex">
-    <div class="info-box">
-      <div id="hours">
-        <h2>Hours</h2>
-        <p>Monday: Closed</p>
-        <p>Tuesday-Thursday: 10:00-16:00</p>
-        <p>Friday: 10:00-19:00</p>
-        <p>Saturday: 9:00-16:00</p>
-        <p>Sunday: 9:00-13:00</p>
-      </div>
-      <div id="admission">
-        <h2>Admission </h2>
-        <p>Entrance is free for all.</p>
-        <p>There are guided tours of the museum that leave every hour.</p>
-        <p>These tours are 70 NOK per person and include a handy printed guide of the museum.</p>
-        <p>If you would like to organize a guided tour for your group of 6 or more, </p>
-        <p>please contact us to arrange the tour.</p>
-        <div class="bookatourbtn">
-          <a href="bookatour.html"role="button" aria-label="button" class="btn">BOOK A TOUR</a>
-        </div>
-      </div>
-      <div id="location">
-        <h2>Location</h2>
-        <p> The museum is located at</p>
-        <p> Central Park West, New York,NY 10024, USA</p>
-        <iframe id="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.065817288066!2d-73.97838843426392!3d40.78140887530356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f4b00f7a09%3A0xa27d8172624c5db1!2sAmerican%20Museum%20of%20Natural%20History!5e0!3m2!1sen!2sno!4v1699708610888!5m2!1sen!2sno"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div id="accessibility">
-        <h2>Accessibility</h2>
-        <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the
-          visually impared.</p>
-      </div>
-      <div id="foodanddrinks">
-        <h2>Food and Drink</h2>
-        <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.
-        </p>
-      </div>
-      <div id="shop">
-        <h2>Shop</h2>
-        <p>Our shop offers a range of memorabilia from the museum as well as a great gifts and activity packs that allow
-          you to continue to explore science even after you've left the museum.</p>
+    <h1 class="header">Book a tour!</h1>
+    <div class="bookatour">
+    <h2>Do you want to book a private tour for your group?</h2>
+    <p>Fill out the form with the date and time you wish to have the tour, and we will get back to you as soon as we can. </p>
+    <div id="booklogo">
+    <img src="images/singlelogo.png" alt="community science logo">
+    </div>
+    </div>
+
+    <div class="form2">
+        <h3>Tour booking form</h3>
+        <form class="contact-form" id="contactus" aria-label="contact-form">
+          <label class="sr-only" for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="First Name">
+
+          <label class="sr-only" for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+
+          <label class="sr-only" for="email">E-mail</label>
+          <input type="text" id="email" name="email" placeholder="E-mail address">
+
+          <label class="sr-only" for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone">
+
+          <label class="sr-only" for="start">Start date:</label>
+
+          <div class="chooseinfo">
+            <div class="number">
+                <label for='number-dd'><b>How many people are in your group?</b></label><br>
+                <select id='number-dd' name='number'>
+                    <option value=''></option>
+                    <option value='six'>6</option>
+                    <option value='seven'>7</option>
+                    <option value='eight'>8</option>
+                    <option value='nine'>9</option>
+                    <option value='ten'>10</option>
+                    <option value='ten +'>10 +</option>
+                </select>
+            </div>
+            
+        <div class="datetime" >
+          <label for="meeting-time">When are you planning to visit?</label>
+
+          <input
+            type="datetime-local"
+            id="meeting-time"
+            name="meeting-time"
+            value="2023-11-26T10:30"
+            min="2023-11-26T00:00"
+            max="2024-11-26T00:00" />
+          </div>
+          
+          </div>
+
+          <div class="submitbutton">
+            <a href="thankyou.html"role="button" aria-label="button" class="btn">SUBMIT</a>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
     <div class="backbutton">
-      <a href="#" aria-label="button" class="backbutton_mobile">BACK TO THE TOP<i class="fa-solid fa-arrow-up fa-2xl"></i></a>
-     </div>
+      <a href="#" aria-label="button" class="backbutton_mobile">BACK TO THE TOP<i
+          class="fa-solid fa-arrow-up fa-2xl"></i></a>
+    </div>
+
   </main>
   <footer>
     <div class="blue_line">
