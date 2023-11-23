@@ -73,11 +73,15 @@ iframe {
 }
 
 @media (min-width: 1000px) {
-    .info-box {
-        width: 1000px;
+    .flex{
         align-items: center;
         justify-items: center;
         justify-content: center;
+    }
+    .info-box {
+        width: 1000px;
+        padding: 50px 40px;
+        font-family: 15px;
     }
 
 
@@ -85,37 +89,4 @@ iframe {
         width: 700px;
         height: 400px;
     }
-
-    .anchor2 {
-        display: flex;
-        flex-direction: column;
-        background-color: #d2fcf1;
-        padding: 40px 5px 0px 40px;
-        height: 300px;
-        width: 450px;
-        margin-top: 30px;
-        border-radius: 30px;
-      
-      }
-      
-      .anchor2 h2 {
-        font-family: 'Roboto Serif', sans-serif;
-        font-size: 30px;
-      
-      }
-      
-      .anchor2 a {
-        text-decoration: none;
-        color: black;
-        font-family: 'Nunito Sans', sans-serif;
-        cursor: pointer;
-      
-      }
-      
-      .anchor2 a:hover {
-        font-style: italic;
-        font-weight: bolder;
-        color: rgba(0, 102, 188, 1);
-    
-      }
 }
