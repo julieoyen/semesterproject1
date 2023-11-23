@@ -153,7 +153,6 @@ p {
 .visitus,
 .getintouch {
   display: none;
-  ;
 }
 
 .footermail a {
@@ -172,18 +171,23 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #0066BC;
+  justify-content: space-between;
   padding: 10px 10px;
 
 }
 
 .some {
   color: white;
-  font-size: large;
-  padding-left: 10x;
+  margin-top: 3px;
 }
 
 .some:hover {
   cursor: pointer;
+}
+
+.icons{
+  padding-top: 15px;
+
 }
 
 .somedesktop {
@@ -191,11 +195,9 @@ p {
 }
 
 .freeadmission {
-  margin-right: 0;
-  margin-left: auto;
-  padding-right: 5px;
   color: white;
-  font-size: 11px;
+  font-size: 12px;
+  padding: 8px 0px 8px 0px;
 
 }
 

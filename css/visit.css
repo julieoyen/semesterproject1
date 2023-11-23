@@ -9,6 +9,7 @@
     border: 2px solid #0066BC;
     padding: 20px;
     margin: 30px;
+    width: 250px;
 }
 
 #hours,
@@ -61,12 +62,12 @@
 }
 
 iframe {
-    width: auto;
-    height: 200px;
+    width: 230px;
+    height: auto;
     border: 0;
 }
 
-#onlydesktop{
+.anchor2{
     display: none;
 }
 
@@ -78,14 +79,42 @@ iframe {
         justify-content: center;
     }
 
-    #onlydesktop{
-        display: flex;
-        margin: 30px 15px;
-        height: 200px;
-        width: 200px;
+
+    iframe{
+        width: 700px;
+        height: 400px;
     }
 
-    #onlydesktop h3{
-        font-family: 'Roboto serif';
-    }
+    .anchor2 {
+        display: flex;
+        flex-direction: column;
+        background-color: #d2fcf1;
+        padding: 40px 5px 0px 40px;
+        height: 300px;
+        width: 450px;
+        margin-top: 30px;
+        border-radius: 30px;
+      
+      }
+      
+      .anchor2 h2 {
+        font-family: 'Roboto Serif', sans-serif;
+        font-size: 30px;
+      
+      }
+      
+      .anchor2 a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        cursor: pointer;
+      
+      }
+      
+      .anchor2 a:hover {
+        font-style: italic;
+        font-weight: bolder;
+        color: rgba(0, 102, 188, 1);
+    
+      }
 }
