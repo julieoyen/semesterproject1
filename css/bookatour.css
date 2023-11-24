@@ -1,7 +1,12 @@
+.bookatourpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .bookatour{
     width: auto;
     margin: 50px;
-    padding: 15px;
+    padding: 35px 25px;
     border-radius: 24px;
     background-color: white;
     border: #0066BC solid 2px;
@@ -15,38 +20,8 @@
 
 #booklogo{
     text-align: center;
-
+    padding-top: 40px;
 }
-
-.form2 {
-
-    border-radius: 24px;
-    border: #0066BC 2px solid;
-    width: 280px;
-    height: 400px;
-    padding: 40px;
-    background-color: white;
-    margin: 50px 0px;
-    justify-content: center;
-    align-items: center;
-
-
-  
-  }
-  
-  .form2 h3 {
-    color: #0066BC;
-    align-items: center;
-    font-family: 'Racing Sans One';
-    font-size: 25px;
-    text-align: center;
-  }
-  
-  .form2 input{
-    font-family: 'nunito sans', sans-serif;
-    font-size: 15px;
-    margin: 15px 0px 0px 0px;
-  }
 
 
 .chooseinfo{
@@ -64,5 +39,26 @@
 
 .submitbutton{
     text-align: center;
-    padding-top: 35px;
+   
+}
+
+
+@media (min-width: 1000px){
+    .form{
+        width: 400px;
+    }
+
+    .bookatour{
+        width: 500px;
+        padding: 50px 60px;
+    }
+
+    .bookatour h2{
+        font-size: 20px;
+    }
+
+    .bookatour p{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
 }
