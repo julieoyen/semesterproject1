@@ -26,8 +26,8 @@
 
 
 .exploretogether{
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   background-color: rgba(251, 119, 106, 0.85);
   opacity: 99%;
   border-radius: 50%;
@@ -35,7 +35,7 @@
 }
 
 .exploretogether h2{
-  padding-top: 25px;
+  padding-top: 20px;
    font-family: 'Roboto Serif', sans-serif;
    color: #000;
    font-size: 11px;
