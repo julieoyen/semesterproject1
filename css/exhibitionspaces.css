@@ -11,13 +11,16 @@
 }
 
 .exhibitioninfo1 {
-    background-color: white;
-    border-radius: 24px;
-    border: 3px solid #0066BC;
-    width: 360px;
     height: auto;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+    min-width: 350px;
+    width: 350px;
+    border-radius: 22px;
+    margin: 30px;
+    border: 3px solid rgba(0, 102, 188, 1);
+    background-color: white;
+    padding-top: 40px;
+    font-family: 'Nunito sans', sans-serif;
+
 }
 
 .exhibitioninfo1 p {
@@ -25,13 +28,8 @@
 }
 
 .exhibitioninfo1 h3 {
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 25px;
-}
-
-.exhibitioninfo1 h4 {
-    font-family: 'nunito sans';
-    font-size: 17px;
 }
 
 .exhibitioninfo p,
@@ -42,18 +40,23 @@
 
 .exhibitioninfo img {
     width: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 22px 22px 0px 0px;
     border-bottom: 3px solid rgba(0, 102, 188, 1);
-   
+    object-fit: cover;
 }
 
 .exhibitionh3 {
     text-align: center;
     font-family: 'Racing sans one', sans-serif;
-    padding: 20px;
+    padding: 5px;
     font-size: 25px;
     color: #0066BC;
-    padding-top: 10px;
+    padding-top: 10px 0px 10px 0px;
+    
+}
+
+.exhibitionh3{
+    padding: 10px 0px 10px 0px;
 }
 
 
