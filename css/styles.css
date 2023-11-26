@@ -292,7 +292,8 @@ p {
   padding-bottom: 20px;
 }
 
-.extra_footer h4 {
+.extra_footer h4,
+.extra_footer h3 {
   font-family: 'roboto serif', sans-serif;
   padding-bottom: 5px;
 }
