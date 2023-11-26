@@ -24,7 +24,7 @@ h1 {
 .museumimg img {
     width: auto;
     border-radius: 22px 22px 0px 0px;
-    max-width: 354px;
+    min-width: 354px;
 }
 
 #aboutlogo {
