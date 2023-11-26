@@ -406,7 +406,11 @@ p {
   .admission h4,
   .visitus h4,
   .getintouch h4,
-  .hours_mobile h4 {
+  .hours_mobile h4,
+  .admission h3,
+  .visitus h3,
+  .getintouch h3,
+  .hours_mobile h3 {
     font-size: 20px;
     padding-bottom: 20px;
   }
@@ -444,12 +448,17 @@ p {
   .somedesktop {
     display: inline;
     color: #0066BC;
-    font-size: 18px;
+    font-size: 30px;
+    padding-top: 5px;
 
   }
 
   .extra_footer {
     height: 200px;
+  }
+
+  .extra_footer p{
+    font-size: 16px;
   }
 
   .inthispage,
