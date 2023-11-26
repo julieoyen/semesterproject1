@@ -1,0 +1,67 @@
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 22px;
+    margin: 30px;
+    border: solid 1px rgba(0, 102, 188, 1);
+    background-color: white;
+    padding-top: 30px;
+    font-family: 'Nunito sans', sans-serif;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 350px;
+}
+
+.infobox p {
+    text-align: left;
+    padding: 0px 20px 20px 20px;
+}
+
+.infobox h3 {
+    font-family: 'Racing sans one';
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 102, 188, 1);
+    padding-bottom: 20px;
+}
+
+.infobox img {
+    border-top: solid 1px rgba(0, 102, 188, 1);
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 0px 0px 22px 22px;
+}
+.submitbutton{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.backbutton{
+    margin: 40px;
+}
+@media (min-width: 1000px) {
+
+    .infobox {
+        width: 400px;
+    }
+
+    .infobox img {
+        width: 400px;
+
+    }
+
+    .backbutton{
+        margin-top: 100px;
+    }
+
+}

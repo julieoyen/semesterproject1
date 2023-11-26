@@ -1,0 +1,80 @@
+.flex{
+    display: flex;
+}
+
+.info-box {
+    background-color: white;
+    justify-content: center;
+    border-color: #0066BC;
+    border-radius: 24px;
+    border: 2px solid #0066BC;
+    padding: 20px;
+    margin: 30px;
+    width: auto;
+}
+
+#hours,
+#admission,
+#location,
+#accessibility,
+#foodanddrinks {
+    border-bottom: 1px solid black;
+}
+
+#hours,
+#admission,
+#location,
+#accessibility,
+#foodanddrinks,
+#shop {
+    padding: 20px 10px 20px;
+}
+
+#hours h2,
+#admission h2,
+#location h2,
+#accessibility h2,
+#foodanddrinks h2,
+#shop h2 {
+    margin-bottom: 20px;
+    font-family: 'Roboto Serif';
+
+}
+
+#location p {
+    padding-bottom: 10px;
+
+}
+
+.bookatourbtn{
+margin-top: 20px;
+}
+
+iframe {
+    width: 230px;
+    height: auto;
+    border: 0;
+}
+
+.anchor2{
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .flex{
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .info-box {
+        width: 1000px;
+        padding: 50px 40px;
+        font-family: 15px;
+    }
+
+
+    iframe{
+        width: 700px;
+        height: 400px;
+    }
+}

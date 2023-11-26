@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3fefb;
+}
+/*---------------------------------------------------------- Header */
+
+.header-logo {
+  padding: 25px 15px;
+  width: 163px;
+}
+
+nav {
+  background-color: #0066BC;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Racing Sans One', sans-serif;
+}
+
+nav a:hover {
+  color: #90F9DD;
+}
+
+nav li {
+  display: block;
+}
+
+nav,
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked~nav {
+  display: block;
+}
+
+.nav-content {
+
+  display: block;
+  padding: 40px, 20px;
+  background: #0066BC;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+ul li:hover {
+  background: #0066BC;
+
+}
+
+
+.hamburger-label {
+  float: right;
+  color: #0066BC;
+  padding: 34px;
+  display: flex;
+  gap: 10px;
+  padding-top: 40px;
+  font-size: 25px;
+
+}
+
+.hamburger-label:hover {
+  cursor: pointer;
+}
+
+
+.header {
+  text-align: center;
+  color: #0066BC;
+}
+
+h1 {
+  font-family: 'Racing Sans One', sans-serif;
+
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*---------------------------------------------------------- BUTTONS */
+.backbutton_mobile {
+  color: rgba(0, 102, 188, 1);
+  background-color: Transparent;
+  border: none;
+  font-size: 14px;
+  font-family: 'Racing Sans One';
+  text-decoration: none;
+
+}
+
+.backbutton {
+  text-align: center;
+  cursor: pointer;
+}
+
+.backbutton i {
+  padding-left: 5px;
+}
+
+
+.btn {
+  background-color: #0066BC;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 5px 14px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Nunito Sans';
+  text-decoration: none;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+/*---------------------------------------------------------- ANCHOR BOX */
+
+.anchor {
+  display: flex;
+  flex-direction: column;
+  background-color: #d2fcf1;
+  margin: 15px 0px 15px 0px;
+  padding: 20px 20px 20px 10px;
+}
+
+.anchor h2 {
+  font-family: 'nunito sans', sans-serif;
+}
+
+.anchor a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+}
+
+.anchor a:hover {
+  font-style: italic;
+  font-weight: bolder;
+  color: rgba(0, 102, 188, 1);
+}
+
+/*---------------------------------------------------------- FLEXBOX */
+
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 22px;
+  text-align: center;
+}
+
+/*---------------------------------------------------------- CONTACT FORM */
+
+.form {
+  border-radius: 24px;
+  border: #0066BC 1px solid;
+  width: 280px;
+  height: 400px;
+  padding: 40px;
+  background-color: white;
+  margin: 50px 0px;
+
+}
+
+.form h3 {
+  color: #0066BC;
+  align-items: center;
+  font-family: 'Racing Sans One';
+  font-size: 25px;
+  text-align: center;
+}
+
+.form input,
+.form textarea {
+  font-family: 'nunito sans', sans-serif;
+  font-size: 15px;
+  margin: 15px 0px 0px 0px;
+}
+
+.form textarea {
+  padding-bottom: 150px;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'nunito sans';
+}
+
+.contact-form a {
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/*---------------------------------------------------------- FOOTER */
+
+.blue_line {
+  display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #0066BC;
+}
+
+.admission,
+.visitus,
+.getintouch {
+  display: none;
+}
+
+.footermail a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footernumber {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.blue_line {
+  display: flex;
+  flex-direction: row;
+  background-color: #0066BC;
+  justify-content: space-between;
+  padding: 10px 10px;
+
+}
+
+.some {
+  color: white;
+  margin-top: 3px;
+}
+
+.some:hover {
+  cursor: pointer;
+}
+
+.icons{
+  padding-top: 15px;
+
+}
+
+.somedesktop {
+  display: none;
+}
+
+.freeadmission {
+  color: white;
+  font-size: 12px;
+  padding: 8px 0px 8px 0px;
+
+}
+
+.extra_footer {
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.extra_footer h4,
+.extra_footer h3 {
+  font-family: 'roboto serif', sans-serif;
+  padding-bottom: 5px;
+}
+
+.extra_footer p {
+  font-family: 'nunito sans', sans-serif;
+  font-size: 12px;
+}
+
+.hours_mobile {
+  padding-left: 5px;
+}
+
+.getintouch_mobile {
+  margin-right: 0;
+  margin-left: auto;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.fa-solid,
+.fa-regular {
+  padding-right: 10px;
+  color: #0066BC;
+  text-decoration: none;
+}
+
+.getintouch_mobile p {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+@media (min-width: 1000px) {
+  .header_text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .header-logo {
+    padding: 25px;
+    width: 306px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    background: #f3fefb;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  nav li:hover {
+    opacity: 0.8;
+    border-radius: 30px;
+  }
+
+  nav a {
+    color: #0066BC;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: large;
+
+  }
+
+  .nav-content {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    float: right;
+
+  }
+
+  .header {
+    text-align: center;
+    color: #0066BC;
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+
+  .admission,
+  .visitus,
+  .getintouch,
+  .hours_mobile {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 10px;
+    padding: 15px 60px 10px 60px;
+  }
+
+  .admission,
+  .visitus,
+  .hours_mobile {
+    border-right: 1px solid black;
+
+  }
+
+  .admission h4,
+  .visitus h4,
+  .getintouch h4,
+  .hours_mobile h4,
+  .admission h3,
+  .visitus h3,
+  .getintouch h3,
+  .hours_mobile h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .admission p,
+  .visitus p,
+  .getintouch p,
+  .hours_mobile p {
+    font-size: 15px;
+    padding-bottom: 3px;
+  }
+
+
+  .freeadmission,
+  .display,
+  .getintouch_mobile,
+  .hamburger-label,
+  .some {
+    display: none;
+  }
+
+  .blue_line {
+    margin-top: 100px;
+    padding: 10px;
+  }
+
+  .backbutton {
+    margin-top: 60px;
+  }
+
+  .backbutton_mobile {
+    font-size: 25px;
+  }
+
+  .somedesktop {
+    display: inline;
+    color: #0066BC;
+    font-size: 30px;
+    padding-top: 5px;
+
+  }
+
+  .extra_footer {
+    height: 200px;
+  }
+
+  .extra_footer p{
+    font-size: 16px;
+  }
+
+  .inthispage,
+  .anchor {
+    display: none;
+  }
+
+  .srmobile {
+    display: none;
+  }
+
+  .form {
+    width: 530px;
+  }
+}
