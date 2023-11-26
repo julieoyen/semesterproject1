@@ -1,17 +1,16 @@
 
 .banner_section {
 
-  background-image: url("/images/indexheadermobile.png");
+  background-image: url("/images/girlrobot.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
-  height: 35vw;
+  height: 28vw;
   position: relative;
   text-align: center;
   padding-top: 100px;
-  margin-top: 10px;
   display: flex;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   
 }
 
@@ -31,16 +30,16 @@
   background-color: rgba(251, 119, 106, 0.85);
   opacity: 99%;
   border-radius: 50%;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
-.exploretogether h2{
-  padding-top: 20px;
+.exploretogether h1{
    font-family: 'Roboto Serif', sans-serif;
    color: #000;
    font-size: 10px;
    font-style: italic;
    font-weight: bolder;
+   padding-top: 20px;
 } 
 .explore {
   text-align: center;
@@ -72,7 +71,7 @@
   }
 
   .explore{
-    margin: 40px;
+    margin-bottom: 40px;
     color: #0066BC;
   }
 
@@ -183,6 +182,8 @@ label #cb3{
   .forresearchers img{
     width: 343px;
     opacity: 80%;
+    border-radius: 24px 24px 0px 0px ;
+
 
     
   }
@@ -250,7 +251,7 @@ label #cb3{
 .special_event3{
 background-color: white;
 border-radius: 24px;
-border: 2px solid #0066BC;
+border: 1px solid #0066BC;
 width: 360px;
 height: auto;
 margin-bottom: 50px;
@@ -293,16 +294,21 @@ padding-bottom: 20px;
 }
 
 @media (min-width: 1000px) {
+
+  .banner_section{
+    height: 40vw;
+  }
  
   .explore h1{ 
     font-size: 68px;
+    padding-bottom: 40px;
   }
 
   .exploretogether {
     height: 150px;
     width: 150px;
   }
-  .exploretogether h2 {
+  .exploretogether h1 {
     padding-top: 45px;
     font-size: 18px;
     
@@ -314,8 +320,9 @@ padding-bottom: 20px;
     width: 200px;
 height: 250px;
 border-radius: 50%;
-top:45%;
+top:35%;
 opacity: 81%;
+margin-left: 10px ;
 
   }
   

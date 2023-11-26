@@ -21,6 +21,12 @@ h1 {
     font-size: 20px;
 }
 
+.museumimg img {
+    width: auto;
+    border-radius: 22px 22px 0px 0px;
+    max-width: 354px;
+}
+
 #aboutlogo {
     text-align: center;
 
@@ -37,9 +43,7 @@ h1 {
     font-size: 14px;
 }
 
-#museumdesktop {
-    display: none;
-}
+
 
 .backbutton{
     padding: 70px;
@@ -71,11 +75,11 @@ h1 {
 
     }
 
-    #museumdesktop {
+    .museumimg img {
         display: flex;
         border-radius: 22px;
         margin-top: 40px;
-
+        width: auto;
     }
 
 
