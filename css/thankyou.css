@@ -1,0 +1,29 @@
+.thankyou {
+    border: solid 1px #0066BC;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 22px;
+    background-color: white;
+}
+
+.thankyou h2 {
+    font-family: 'Roboto Serif';
+    padding-bottom: 20px;
+    color: #0066BC;
+}
+
+.thankyou {
+    color: #0066BC;
+    font-size: 15px;
+}
+
+.thankyou img {
+    padding-top: 40px;
+}
+
+@media (min-width: 1000px) {
+    .thankyou {
+        margin: 0px 400px;
+    }
+}

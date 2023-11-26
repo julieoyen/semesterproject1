@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0066BC">
+  <title> Welcome to The Community Science Museum | Book a Tour</title>
+  <meta name="description" content="In this page, you can book a tour at the museum with your group">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/bookatour.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2a14472a93.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Racing+Sans+One&family=Roboto+Mono&family=Roboto+Serif:opsz@8..144&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header_text">
+      <a href="index.html"><img src="images/logodesktoplogo.png" alt="community science museum logo" class="header-logo"
+          aria-label="Home button"></a>
+
+
+      <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu"
+          class="fas fa fa-bars"></i><span class="sr-only sr-only-focusable">Menu</span>
+      </label>
+      <input type="checkbox" name="Hamburger Menu" aria-label="checkbox" id="hamburger-menu">
+      <nav aria-label="Main Menu">
+        <ul class="nav-content">
+          <li><a href="visit.html" class="nav">VISIT</a></li>
+          <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
+          <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
+          <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sr-only sr-only-focusable">
+      <div class="srmobile">
+        <nav aria-label="Main Menu">
+          <ul class="nav-content">
+            <li><a href="visit.html" class="nav">VISIT</a></li>
+            <li><a href="exhibitionspaces.html" class="nav"> EXHIBITION SPACES</a></li>
+            <li><a href="getinvolved.html" class="nav">GET INVOLVED</a></li>
+            <li><a href="aboutus.html" class="nav">ABOUT US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="header">BOOK A TOUR</h1>
+    <div class="bookatourpage">
+    <div class="bookatour">
+    <h2>Do you want to book a private tour for your group of 6 or more?</h2>
+    <p>Fill out the form with your details and the time and date you wish to have the tour, and we will get back to you as soon as we can.</p>
+    <div id="booklogo">
+    <img src="images/singlelogo.png" alt="community science logo">
+    </div>
+    </div>
+
+    <div class="form">
+        <h3>Tour booking form</h3>
+        <form class="contact-form" id="contactus" aria-label="contact-form">
+          <label class="sr-only sr-only-focusable" for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="First Name">
+
+          <label class="sr-only sr-only-focusable" for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+
+          <label class="sr-only sr-only-focusable" for="email">E-mail</label>
+          <input type="text" id="email" name="email" placeholder="E-mail address">
+
+          <label class="sr-only sr-only-focusable" for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone">
+
+          <div class="chooseinfo">
+            <div class="number">
+                <label for='number-dd'><b>How many people are in your group?</b></label><br>
+                <select id='number-dd' name='number'>
+                    <option value='zero'>-</option>
+                    <option value='six'>6</option>
+                    <option value='seven'>7</option>
+                    <option value='eight'>8</option>
+                    <option value='nine'>9</option>
+                    <option value='ten'>10</option>
+                    <option value='eleven'>11</option>
+                    <option value='twelve'>12</option>
+                    <option value='thirteen'>13</option>
+                    <option value='fourteen'>14</option>
+                    <option value='fifteen'>15</option>
+                    <option value='sixteen +'>16 +</option>
+                </select>
+            </div>
+          </div>
+            
+        <div class="datetime" >
+          <label for="tour-time"><b>When are you planning to visit?</b></label>
+
+          <input
+            type="datetime-local"
+            id="tour-time"
+            name="tour-time"
+            value="2023-11-26T10:30"
+            min="2023-11-26T00:00"
+            max="2024-11-26T00:00" />
+          </div> 
+        </form>
+        </div>  
+   
+          <div class="submitbutton">
+            <a href="thankyou.html"role="button" aria-label="button" class="btn">SUBMIT</a>
+          </div>
+    </div>
+    <div class="backbutton">
+      <a href="#" role="button" class="backbutton_mobile">BACK TO THE TOP<i
+          class="fa-solid fa-arrow-up fa-2xl"></i></a>
+    </div>
+
+  </main>
+  <footer>
+    <div class="blue_line">
+      <div class="icons">
+        <a class="some" aria-label="instagram" href="https://www.instagram.com/"><i
+            class="fa-brands fa-instagram fa-lg"></i></a>
+        <a class="some" aria-label="facebook" href="https://www.facebook.com/"><i
+            class="fa-brands fa-facebook fa-lg"></i></a>
+        <a class="some" aria-label="youtube" href="https://www.youtube.com/"><i
+            class="fa-brands fa-youtube fa-lg"></i></a>
+      </div>
+      <div class="freeadmission">
+        <p>ADMISSION FOR ALL - </p>
+        <p>TOURS 70 KR PR PERSON</p>
+      </div>
+    </div>
+    <div class="extra_footer">
+      <div class="hours_mobile">
+        <h4>HOURS</h4>
+        <p>Monday: Closed</p>
+        <p>Tuesday-Thursday: 10:00-16:00</p>
+        <p>Friday: 10:00-19:00</p>
+        <p>Saturday: 9:00-16:00</p>
+        <p>Sunday: 9:00-13:00</p>
+      </div>
+      <div class="admission">
+        <h4>ADMISSION</h4>
+        <p>Entrance is free for all</p>
+        <p>Guided tours leave every hour</p>
+        <p>Guided tours are 70 kr pr person</p>
+        <p>Contact us for group tours of 6+ people</p>
+      </div>
+      <div class="visitus">
+        <h4>VISIT US</h4>
+        <p>
+        <p><i class="fa-solid fa-location-dot"></i>200 Central Park West,</p>
+        <p>New York, NY 10024, USA</p>
+      </div>
+      <div class="getintouch_mobile">
+        <h4>GET IN TOUCH</h4>
+        <p><i class="fa-solid fa-phone"></i>+ 1 (555) 555-1234</p>
+        <div class="footermail">
+          <p alt="send us an email"><i class="fa-regular fa-envelope"></i><a href="mailto:info@sciencemuseum.com">info@sciencemuseum.com</a>
+          </p>
+        </div>
+        <p><i class="fa-solid fa-location-dot"></i>200 Central Park West,</p>
+        <p>New York, NY 10024, USA</p>
+      </div>
+      <div class="getintouch">
+        <h4>GET IN TOUCH</h4>
+        <p><i class="fa-solid fa-phone"></i>+ 1 (555) 555-1234</p>
+        <div class="footermail">
+          <p alt="send us an email"><i class="fa-regular fa-envelope"></i>info@sciencemuseum.com
+          </p>
+        </div>
+        <p><a class="somedesktop" aria-label="instagram" href="https://www.instagram.com/"><i
+              class="fa-brands fa-instagram fa-lg"></i></a>
+          <a class="somedesktop" aria-label="facebook" href="https://www.facebook.com/"><i
+              class="fa-brands fa-facebook fa-lg"></i></a>
+          <a class="somedesktop" aria-label="youtube" href="https://www.youtube.com/"><i
+              class="fa-brands fa-youtube fa-lg"></i></a>
+        </p>
+      </div>
+    </div>
+  </footer>
