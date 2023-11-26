@@ -116,31 +116,31 @@
 }
 
 
-#ch1,
-#ch2,
-#ch3 {
+#cb1,
+#cb2,
+#cb3 {
   display: none;
   font-family: 'Racing Sans One', sans-serif;
   
 }
 
 
-#ch1:checked ~ .content1,
-#ch2:checked ~ .content2,
-#ch3:checked ~ .content3 {
+#cb1:checked ~ .content1,
+#cb2:checked ~ .content2,
+#cb3:checked ~ .content3 {
  display: block;
 }
 
-#ch1:checked ~ .buttonforkids2,
-#ch2:checked ~ .buttonforkids2,
-#ch3:checked ~ .buttonforkids2{
+#cb1:checked ~ .buttonforkids2,
+#cb2:checked ~ .buttonforkids2,
+#cb3:checked ~ .buttonforkids2{
   display: none;
 }
 
 
-label #ch1,
-label #ch2,
-label #ch3{
+label #cb1,
+label #cb2,
+label #cb3{
   background-color: black;
   display: inline-block;
   cursor: pointer;
@@ -344,6 +344,7 @@ opacity: 81%;
     .forkids img,
     .forresearchers img{
       width: 343px;
+
     }
 
     .buttonforkids{
