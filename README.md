@@ -22,7 +22,7 @@ The Community Science Museum website is designed to provide visitors with all th
 
 ## Demo 💡
 
-Demo of index.html
+Demo of index.html <br>
 <img src="images/semesterproject.gif" alt=" of the Community Science Museum website">
 
 ## Installation 📦
