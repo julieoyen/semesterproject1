@@ -66,10 +66,7 @@ npm run start
 
 ## Built With 🛠️
 
-- HTML
-- CSS
-- Figma
-- VS code
+![My Skills](https://skillicons.dev/icons?i=js,html,css,figma,vscode)
 
 ## Contributing 🤝
 
